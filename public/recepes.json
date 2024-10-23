@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_name": "Spicy Chicken Tacos",
+      "recipe_img": "https://i.ibb.co.com/QFM0DhQ/food-712665-1280.jpg",
+      "short_description": "A zesty and flavorful chicken taco with a spicy kick.",
+      "ingredients": ["Chicken breast", "Taco seasoning", "Tortillas", "Lettuce", "Sour cream", "Cheese", "Salsa"],
+      "preparing_time": 30,
+      "calories": 350
+    },
+    {
+      "recipe_id": "2",
+      "recipe_name": "Classic Margherita Pizza",
+      "recipe_img": "https://i.ibb.co.com/pvm8hvp/spring-roll-6760871-1280.jpg",
+      "short_description": "A simple yet delicious pizza with fresh mozzarella and basil.",
+      "ingredients": ["Pizza dough", "Tomato sauce", "Fresh mozzarella", "Basil leaves", "Olive oil"],
+      "preparing_time":25,
+      "calories": 500
+    },
+    {
+      "recipe_id": "3",
+      "recipe_name": "Vegan Buddha Bowl",
+      "recipe_img": "https://i.ibb.co.com/LgxPn2d/hamburger-494706-1280.jpg",
+      "short_description": "A wholesome and nutritious vegan bowl packed with fresh vegetables.",
+      "ingredients": ["Quinoa", "Avocado", "Chickpeas", "Spinach", "Sweet potato", "Tahini sauce"],
+      "preparing_time": 20,
+      "calories": 400
+    },
+    {
+      "recipe_id": "4",
+      "recipe_name": "Creamy Garlic Shrimp Pasta",
+      "recipe_img": "https://i.ibb.co.com/LNcshHr/mug-8235059-1280.jpg",
+      "short_description": "A rich and creamy pasta dish with shrimp and garlic flavors.",
+      "ingredients": ["Pasta", "Shrimp", "Garlic", "Cream", "Parmesan cheese", "Parsley"],
+      "preparing_time": 35,
+      "calories": 600
+    },
+    {
+      "recipe_id": "5",
+      "recipe_name": "Beef Stir-Fry with Vegetables",
+      "recipe_img": "https://i.ibb.co.com/WxmY7hB/fish-8031138-1280.jpg",
+      "short_description": "A quick and tasty stir-fry with tender beef and colorful veggies.",
+      "ingredients": ["Beef strips", "Bell peppers", "Broccoli", "Soy sauce", "Ginger", "Garlic"],
+      "preparing_time": 20,
+      "calories": 450
+    },
+    {
+      "recipe_id": "6",
+      "recipe_name": "Blueberry Smoothie Bowl",
+      "recipe_img": "https://i.ibb.co.com/tpH89ph/platter-2009590-1280.jpg",
+      "short_description": "A refreshing and healthy smoothie bowl topped with fresh berries and granola.",
+      "ingredients": ["Blueberries", "Banana", "Almond milk", "Granola", "Chia seeds", "Coconut flakes"],
+      "preparing_time": 10,
+      "calories": 300
+    }
+  ]
+  
