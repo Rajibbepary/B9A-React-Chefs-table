@@ -1,4 +1,7 @@
 
+import PropTypes from 'prop-types';
+
+
 const Card = ({ recipeQueue, handleRemove, preparedRecipe, calculateTimeAndCalories, totalTime, totalCalories }) => {
     return (
         <div className="md:w-1/3 border-2 rounded-2xl text-gray-600 bg-base-100">
@@ -80,4 +83,14 @@ const Card = ({ recipeQueue, handleRemove, preparedRecipe, calculateTimeAndCalor
     );
 };
 
+
+Card.propTypes = {
+  recipeQueue : PropTypes.func,
+   handleRemove : PropTypes.func ,
+    preparedRecipe : PropTypes.func, 
+    calculateTimeAndCalories : PropTypes.func,
+     totalTime : PropTypes.func
+    , totalCalories : PropTypes.func
+
+}
 export default Card;

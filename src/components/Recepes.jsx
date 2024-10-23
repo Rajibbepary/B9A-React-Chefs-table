@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-
+import PropTypes from 'prop-types';
 
 const Recepes = ({addRecipeToQueue}) => {
 
@@ -57,5 +57,10 @@ const Recepes = ({addRecipeToQueue}) => {
         </div>
     );
 };
+
+Recepes.propTypes = {
+
+  addRecipeToQueue: PropTypes.func
+}
 
 export default Recepes;
