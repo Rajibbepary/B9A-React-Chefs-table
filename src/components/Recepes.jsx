@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 
-const Recepes = () => {
+const Recepes = ({addRecipeToQueue}) => {
 
     const [recipes, setRicipes] = useState([])
 
@@ -48,7 +48,7 @@ const Recepes = () => {
       
     </div>
   <div className="card-actions">
-    <button className="btn bg-green-500 rounded-full px-8 text-xl text-gray-800 mt-4">Want To Cook</button>
+    <button onClick={()=> addRecipeToQueue(recipe)} className="btn bg-green-500 rounded-full px-8 text-xl text-gray-800 mt-4">Want To Cook</button>
   </div>
 </div>
 </div>
